@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+div.nav1 {
+  margin: 0px;
+  padding: 15px;
+  background-color: aliceblue;
+  box-shadow: 0 0 5px gray;
+}
+div h1 {
+  color: black;
+  padding: 0;
+  text-align: center;
+}
+.links li {
+  margin: auto;
+  padding: 5px;
+  font-size: 20px;
+}
+.links li a {
+  text-decoration: none;
+  color: black;
+}
+.links li a:hover {
+  color: red;
+}
+
+.content h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+.content span {
+  color: white;
+}
+.btn {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.btn:hover {
+  color: red;
+  border: 2px solid red;
+}
+.extra {
+  height: 200px;
+}
